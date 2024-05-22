@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    First Name: <input type="text" id="myText" placeholder="Name">
+
+<p>Click the button to display the placeholder text of the text field.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myText").placeholder;
+  document.getElementById("demo").innerHTML = x;
+}
+</script>
+
+</body>
+</html>
